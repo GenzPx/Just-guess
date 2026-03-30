@@ -1,0 +1,330 @@
+{
+  "achievements": [
+    {
+      "id": "first_win",
+      "name": "First Victory",
+      "description": "Win your first game",
+      "icon": "🏆",
+      "category": "milestone"
+    },
+    {
+      "id": "speed_runner",
+      "name": "Speed Runner",
+      "description": "Complete a game in less than 20 seconds",
+      "icon": "⚡",
+      "category": "speed"
+    },
+    {
+      "id": "streak_king",
+      "name": "Streak King",
+      "description": "Achieve a 10-game winning streak",
+      "icon": "🔥",
+      "category": "streak"
+    },
+    {
+      "id": "perfect_score",
+      "name": "Perfect Score",
+      "description": "Win without making any mistakes",
+      "icon": "💯",
+      "category": "perfection"
+    },
+    {
+      "id": "vocabulary_master",
+      "name": "Vocabulary Master",
+      "description": "Win 50 games total",
+      "icon": "📚",
+      "category": "milestone"
+    },
+    {
+      "id": "time_traveler",
+      "name": "Time Traveler",
+      "description": "Win a game with more than 30 seconds remaining",
+      "icon": "⏱️",
+      "category": "speed"
+    },
+    {
+      "id": "no_mercy",
+      "name": "No Mercy",
+      "description": "Win an Extreme difficulty game",
+      "icon": "💀",
+      "category": "difficulty"
+    },
+    {
+      "id": "polyglot",
+      "name": "Polyglot",
+      "description": "Play games in both English and Indonesian",
+      "icon": "🌍",
+      "category": "exploration"
+    },
+    {
+      "id": "completionist",
+      "name": "Completionist",
+      "description": "Win games from all categories",
+      "icon": "✨",
+      "category": "exploration"
+    },
+    {
+      "id": "hint_master",
+      "name": "Hint Master",
+      "description": "Use all available hints in a single game",
+      "icon": "💡",
+      "category": "strategy"
+    }
+  ],
+  "difficulties": {
+    "easy": {
+      "label": "Easy",
+      "emoji": "🟢",
+      "color": "#00ff88",
+      "lives": 8,
+      "attempts": 8,
+      "timeLimit": 120,
+      "hintsPerGame": 3,
+      "pointMultiplier": 1,
+      "wordLength": {
+        "min": 3,
+        "max": 5
+      }
+    },
+    "medium": {
+      "label": "Medium",
+      "emoji": "🟡",
+      "color": "#ffaa00",
+      "lives": 6,
+      "attempts": 6,
+      "timeLimit": 90,
+      "hintsPerGame": 3,
+      "pointMultiplier": 1.5,
+      "wordLength": {
+        "min": 5,
+        "max": 7
+      }
+    },
+    "hard": {
+      "label": "Hard",
+      "emoji": "🔴",
+      "color": "#ff0055",
+      "lives": 4,
+      "attempts": 4,
+      "timeLimit": 60,
+      "hintsPerGame": 3,
+      "pointMultiplier": 2,
+      "wordLength": {
+        "min": 7,
+        "max": 10
+      }
+    },
+    "extreme": {
+      "label": "Extreme",
+      "emoji": "💀",
+      "color": "#ff3333",
+      "lives": 3,
+      "attempts": 3,
+      "timeLimit": 45,
+      "hintsPerGame": 3,
+      "pointMultiplier": 3,
+      "wordLength": {
+        "min": 8,
+        "max": 15
+      }
+    }
+  },
+  "gameModes": [
+    {
+      "id": "hangman",
+      "name": "Hangman",
+      "description": "Guess letters one by one",
+      "emoji": "🎯",
+      "instructions": "Click or type letters to guess. Correct letters reveal, wrong letters cost lives."
+    },
+    {
+      "id": "wordle",
+      "name": "Wordle",
+      "description": "Guess the word in limited attempts",
+      "emoji": "🔤",
+      "instructions": "Type the word and get color feedback. Green = correct position, Yellow = wrong position, Grey = not in word."
+    },
+    {
+      "id": "scramble",
+      "name": "Scramble",
+      "description": "Unscramble the letters quickly",
+      "emoji": "🔀",
+      "instructions": "Beat the timer to unscramble letters into the correct word. Limited attempts!"
+    },
+    {
+      "id": "cluemaster",
+      "name": "Clue Master",
+      "description": "Read clue and guess the word",
+      "emoji": "💡",
+      "instructions": "Read the clue carefully and type your answer before time runs out!"
+    }
+  ],
+  "categories": [
+    {
+      "id": "animals",
+      "name": "Animals",
+      "emoji": "🐾",
+      "description": "Animals from around the world"
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "emoji": "🍕",
+      "description": "Delicious foods and dishes"
+    },
+    {
+      "id": "countries",
+      "name": "Countries",
+      "emoji": "🏙️",
+      "description": "Nations around the world"
+    },
+    {
+      "id": "tech",
+      "name": "Technology",
+      "emoji": "💻",
+      "description": "Tech terms and concepts"
+    },
+    {
+      "id": "movies",
+      "name": "Movies",
+      "emoji": "🎬",
+      "description": "Famous films and movies"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "emoji": "⚽",
+      "description": "Sports and athletics"
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "emoji": "🎵",
+      "description": "Music and instruments"
+    },
+    {
+      "id": "random",
+      "name": "Random All",
+      "emoji": "🎲",
+      "description": "Random words from all categories"
+    }
+  ],
+  "themes": {
+    "dark": {
+      "name": "Dark Theme",
+      "emoji": "🌙",
+      "colors": {
+        "bgPrimary": "#0f0f1e",
+        "bgSecondary": "#1a1a2e",
+        "bgTertiary": "#16213e",
+        "textPrimary": "#ffffff",
+        "textSecondary": "#b0b0c0",
+        "accentPrimary": "#00d9ff",
+        "accentSecondary": "#ff00ff"
+      }
+    },
+    "light": {
+      "name": "Light Theme",
+      "emoji": "☀️",
+      "colors": {
+        "bgPrimary": "#ffffff",
+        "bgSecondary": "#f5f5f5",
+        "bgTertiary": "#efefef",
+        "textPrimary": "#1a1a1a",
+        "textSecondary": "#666666",
+        "accentPrimary": "#0066ff",
+        "accentSecondary": "#9933ff"
+      }
+    }
+  },
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "emoji": "🇬🇧",
+      "isDefault": true
+    },
+    {
+      "code": "id",
+      "name": "Bahasa Indonesia",
+      "emoji": "🇮🇩",
+      "isDefault": false
+    }
+  ],
+  "soundEffects": [
+    {
+      "id": "correct",
+      "name": "Correct Guess",
+      "fileName": "correct.mp3",
+      "duration": 300
+    },
+    {
+      "id": "wrong",
+      "name": "Wrong Guess",
+      "fileName": "wrong.mp3",
+      "duration": 400
+    },
+    {
+      "id": "win",
+      "name": "Game Won",
+      "fileName": "win.mp3",
+      "duration": 1200
+    },
+    {
+      "id": "lose",
+      "name": "Game Lost",
+      "fileName": "lose.mp3",
+      "duration": 1000
+    },
+    {
+      "id": "tick",
+      "name": "Timer Tick",
+      "fileName": "tick.mp3",
+      "duration": 100
+    },
+    {
+      "id": "button",
+      "name": "Button Click",
+      "fileName": "button.mp3",
+      "duration": 150
+    },
+    {
+      "id": "achievement",
+      "name": "Achievement Unlocked",
+      "fileName": "achievement.mp3",
+      "duration": 600
+    },
+    {
+      "id": "streak",
+      "name": "Streak Milestone",
+      "fileName": "streak.mp3",
+      "duration": 500
+    }
+  ],
+  "scoring": {
+    "basePoints": 100,
+    "timeBonus": {
+      "easy": 1,
+      "medium": 2,
+      "hard": 3,
+      "extreme": 5
+    },
+    "streakMultipliers": {
+      "3": 1.5,
+      "5": 2,
+      "10": 3
+    },
+    "bonusPoints": {
+      "speedRunner": 500,
+      "perfectScore": 1000,
+      "achievementUnlock": 250
+    }
+  },
+  "appInfo": {
+    "name": "Just Guess",
+    "version": "1.0.0",
+    "description": "A word guessing game with multiple modes and difficulty levels",
+    "author": "Game Studio",
+    "releaseDate": "2024-01-15"
+  }
+}
